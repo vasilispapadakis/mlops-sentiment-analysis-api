@@ -37,5 +37,4 @@ def train_and_save_model():
 def load_model(model_path='artifacts/sentiment_model.pkl'):
     return joblib.load(model_path)
 
-if __name__ == "__main__":
-    train_and_save_model()
+
